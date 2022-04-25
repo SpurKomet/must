@@ -1,0 +1,9 @@
+main: de.spurkomet.gamemode.InternalMainClass
+name: gamemode
+version: 1.18
+description: Gamemode
+api-version: 1.18
+author: SpurKomet
+libraries:
+  - "net.axay:kspigot:1.18.0"
+  - "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
