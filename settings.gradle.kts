@@ -1,4 +1,4 @@
-rootProject.name = "Gamemode-Adrian"
+rootProject.name = "mast"
 pluginManagement {
     repositories {
         gradlePluginPortal()

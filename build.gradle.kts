@@ -1,9 +1,9 @@
 plugins {
-    kotlin("jvm") version "1.6.0"
-    id("io.papermc.paperweight.userdev") version "1.3.1"
+    kotlin("jvm") version "1.6.20"
+    id("io.papermc.paperweight.userdev") version "1.3.6"
 }
 
-val mcVersion = "1.18"
+val mcVersion = "1.18.2"
 val isSnapshot = true
 
 group = "net.spurkomet"
@@ -14,8 +14,9 @@ repositories {
 }
 
 dependencies {
-    paperDevBundle("1.18.1-R0.1-SNAPSHOT")
-    implementation("net.axay:kspigot:1.18.0")
+    implementation(kotlin("stdlib"))
+    paperDevBundle("1.18.2-R0.1-SNAPSHOT")
+    implementation("net.axay:kspigot:1.18.2")
 }
 
 tasks {

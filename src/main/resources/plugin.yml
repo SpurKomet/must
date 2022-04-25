@@ -1,9 +1,9 @@
-main: de.spurkomet.gamemode.InternalMainClass
-name: gamemode
-version: 1.18
-description: Gamemode
+main: de.spurkomet.must.InternalMainClass
+name: must
+version: 1.18.2
+description: Must, Rust in Minecraft
 api-version: 1.18
-author: SpurKomet
+author: [SpurKomet, DrHadrian]
 libraries:
-  - "net.axay:kspigot:1.18.0"
-  - "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
+  - "net.axay:kspigot:1.18.2"
+  - "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"

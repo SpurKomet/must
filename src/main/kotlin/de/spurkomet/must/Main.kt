@@ -1,7 +1,7 @@
-package de.spurkomet.gamemode
+package de.spurkomet.must
 
-import de.spurkomet.gamemode.build.buildTestCommandClass
-import de.spurkomet.gamemode.build.listener
+import de.spurkomet.must.build.buildTestCommandClass
+import de.spurkomet.must.build.listener
 import net.axay.kspigot.chat.col
 import net.axay.kspigot.main.KSpigot
 
@@ -21,5 +21,5 @@ class InternalMainClass : KSpigot(){
     }
 }
 fun prefix(): String{
-    return "${col("dark_gray")}[${col("aqua")}Gamemode${col("dark_gray")}] ${col("white")}"
+    return "${col("dark_gray")}[${col("aqua")}must${col("dark_gray")}] ${col("white")}"
 }
