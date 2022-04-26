@@ -1,7 +1,7 @@
 package de.spurkomet.must
 
-import de.spurkomet.must.build.buildTestCommandClass
-import de.spurkomet.must.build.listener
+import de.spurkomet.must.buildWall.buildTestCommandClass
+import de.spurkomet.must.buildWall.listener
 import net.axay.kspigot.chat.col
 import net.axay.kspigot.main.KSpigot
 
